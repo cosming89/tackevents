@@ -99,21 +99,18 @@ h6 {
 
 .bg-sonorizare{
   position: relative;
-  background-image: url(/assets/img/sonorizare.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .bg-lumini{
   position: relative;
-  background-image: url(/assets/img/lumini.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .bg-pachete{
   position: relative;
-  background-image: url(/assets/img/packages_background.jpg);
   background-size: cover;
   background-position: center;
 }
