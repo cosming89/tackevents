@@ -93,28 +93,28 @@ h6 {
 
 .bg-solisti{
   position: relative;
-  background-image: url(/Personal/assets/img/solisti.jpg);
+  background-image: url(/assets/img/solisti.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .bg-sonorizare{
   position: relative;
-  background-image: url(/Personal/assets/img/sonorizare.jpg);
+  background-image: url(/assets/img/sonorizare.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .bg-lumini{
   position: relative;
-  background-image: url(/Personal/assets/img/lumini.jpg);
+  background-image: url(/assets/img/lumini.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .bg-pachete{
   position: relative;
-  background-image: url(/Personal/assets/img/packages_background.jpg);
+  background-image: url(/assets/img/packages_background.jpg);
   background-size: cover;
   background-position: center;
 }
