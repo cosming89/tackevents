@@ -70,6 +70,7 @@
 
   function toggleScrollTop() {
     if (scrollTop && whatsAppBtn) {
+      console.log(whatsAppBtn)
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
       window.scrollY > 100 ? whatsAppBtn.classList.add('active') : whatsAppBtn.classList.remove('active');
     }
