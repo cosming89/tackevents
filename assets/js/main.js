@@ -66,10 +66,12 @@
    * Scroll top button
    */
   let scrollTop = document.querySelector('.scroll-top');
+  let whatsAppBtn = document.getElementById('whatsAppBtn');
 
   function toggleScrollTop() {
-    if (scrollTop) {
+    if (scrollTop && whatsAppBtn) {
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+      window.scrollY > 100 ? whatsAppBtn.classList.add('active') : whatsAppBtn.classList.remove('active');
     }
   }
   scrollTop.addEventListener('click', (e) => {
