@@ -130,6 +130,8 @@ h6 {
   height: 42px;
 }
 
+
+
 .bg-solisti{
   position: relative;
   background-size: cover;
@@ -358,6 +360,15 @@ h6 {
   overflow: hidden;
   transition: 0.5s;
 }
+
+.team-link{
+  cursor: pointer;
+}
+
+.team-link:hover .member-info{
+  background-color: #059652;
+}
+
 
 .agents .member h4 {
   font-weight: 700;
@@ -1374,7 +1385,6 @@ section,
   background-color: var(--background-color);
   border: 1px solid #059652;
   text-align: center;
-  padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   height: 100%;
 }
