@@ -433,7 +433,7 @@ h6 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.9) 75%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.9) 95%);
   z-index: 2;
 }
 
@@ -454,6 +454,10 @@ h6 {
   right: 0;
   z-index: 3;
   padding: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
 }
 
 .packages .card .card-body .sale-rent {
@@ -482,7 +486,7 @@ h6 {
 .packages .card .card-body .card-content {
   background-color: var(--accent-color);
   color: var(--contrast-color);
-  height: 80px;
+  height: 60px;
   visibility: hidden;
   opacity: 0;
   margin-top: 10px;
@@ -1536,7 +1540,7 @@ section,
 .service-details ul li {
   padding: 5px 0;
   display: flex;
-  align-items: center;
+  align-items: top;
 }
 
 .service-details ul i {

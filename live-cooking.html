@@ -38,23 +38,48 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <h1 class="sitename">TackEvents</h1>
+        <!-- <h1 class="sitename">TackEvents</h1> -->
+        <img src="assets/img/logo.png" class="w-100" style="max-width:160px;"/>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero" class="nav-indicator">Acasă</a></li>
           <li><a href="index.html#about" class="nav-indicator">Despre</a></li>
-          <li><a href="index.html#members" class="nav-indicator">Echipă</a></li>
+          <li class="dropdown"><a href="index.html#team" class="nav-indicator"><span>Echipă</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="dj.html">DJ</a></li>
+              <li><a href="mc.html">MC</a></li>
+              <li><a href="solisti.html">Soliști</a></li>
+              <li><a href="saxofon.html">Saxofon</a></li>
+              <li><a href="darbuka.html">Darbuka</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="index.html#packages" class="nav-indicator"><span>Pachete</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="nunta.html">Nuntă</a></li>
+              <li><a href="botez.html">Petrecere Botez</a></li>
+              <li><a href="aniversare.html">Aniversare</a></li>
+              <li><a href="corporate-banchet.html">Corporate | Banchet</a></li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="index.html#services" class="active nav-indicator"><span>Servicii</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="solisti-details.html">Solisti</a></li>
-              <li><a href="sonorizare-details.html">Sonorizare</a></li>
-              <li><a href="lumini-details.html">Lumini</a></li>
+              <li><a href="foto-video.html">Foto-Video</a></li>
+              <li><a href="photo-booth.html">Photo Booth</a></li>
+              <li><a href="bar-mobil.html">Bar Mobil</a></li>
+              <li><a href="wedding-planner.html">Wedding Planner</a></li>
+              <li><a href="hostess.html">Hostess</a></li>
+              <li><a href="curs-festiv.html">Curs Festiv</a></li>
+              <li><a href="artificii.html">Artificii</a></li>
+              <li><a href="gheata-carbonica.html">Gheață Carbonică</a></li>
+              <li><a href="live-cooking.html">Live Cooking</a></li>
+              <li><a href="magician.html">Magician</a></li>
+              <li><a href="ursitoare.html">Ursitoare</a></li>
+              <li><a href="caricaturi.html">Caricaturi</a></li>
             </ul>
           </li>
-          <li><a href="index.html#packages" class="nav-indicator">Pachete</a></li>
           <li><a href="index.html#portfolio" class="nav-indicator">Galerie</a></li>
           <li><a href="index.html#contact" class="nav-indicator">Contact</a></li>
         </ul>
@@ -178,24 +203,25 @@
     <div class="container px-3 px-lg-0">
       <div class="row px-3 px-lg-0">
         <div class="col-lg-4 my-3">
-          <h3 class="sitename">TackEvents</h3>
-          <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+          <img src="assets/img/logo.png" class="w-100 pb-3"  style="max-width: 220px;"/>
+          <p>"Fără muzică, viața ar fi o greșeală." - Friedrich Nietzsche
           </p>
           <div class="social-links d-flex justify-content-start">
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-tiktok"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100092530428051"><i
+                class="bi bi-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/deejaytack/"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="https://www.tiktok.com/@tackevents"><i class="bi bi-tiktok"></i></a>
+            <a target="_blank" href="https://www.youtube.com/@tackevents/videos"><i class="bi bi-youtube"></i></a>
           </div>
         </div>
         <div class="col-lg-2"></div>
         <div class="col-lg-3 my-4">
           <h5 class="w-100">Scurtături</h5>
           <div class="nav-links d-grid justify-content-start">
-            <a href="" class="my-1">Termeni și condiții</a>
-            <a href="packages-details.html" class="my-1">Pachete</a>
-            <a href="solisti-details.html" class="my-1">Solisti</a>
-            <a href="sonorizare-details.html" class="my-1">Sonorizare</a>
+            <a href="termeni-conditii-politici.html" class="my-1">Termeni | Condiții | Politici</a>
+            <a href="index.html" class="my-1">Acasă</a>
+            <a href="index.html#services" class="my-1">Servicii</a>
+            <a href="index.html#packages" class="my-1">Pachete</a>
           </div>
         </div>
         <div class="col-lg-3 my-4">
@@ -217,6 +243,11 @@
       </div>
     </div>
   </footer>
+
+  <!-- Whatsapp Button -->
+  <a id="whatsAppBtn" href="https://wa.me/40786903466" class="whatsapp-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+  </a>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
